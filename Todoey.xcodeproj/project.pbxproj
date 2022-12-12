@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9C85578E29477233000F1824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C85578D29477233000F1824 /* AppDelegate.swift */; };
-		9C85579029477233000F1824 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C85578F29477233000F1824 /* SceneDelegate.swift */; };
-		9C85579229477233000F1824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C85579129477233000F1824 /* ViewController.swift */; };
+		9C85579229477233000F1824 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C85579129477233000F1824 /* TodoListViewController.swift */; };
 		9C85579529477233000F1824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C85579329477233000F1824 /* Main.storyboard */; };
 		9C85579729477234000F1824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C85579629477234000F1824 /* Assets.xcassets */; };
 		9C85579A29477234000F1824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C85579829477234000F1824 /* LaunchScreen.storyboard */; };
+		9C8557A229477302000F1824 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9C8557A129477302000F1824 /* README.md */; };
+		9C8557C6294779D9000F1824 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8557C5294779D9000F1824 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C85578A29477233000F1824 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C85578D29477233000F1824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C85578F29477233000F1824 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C85579129477233000F1824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C85579129477233000F1824 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		9C85579429477233000F1824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C85579629477234000F1824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C85579929477234000F1824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C85579B29477234000F1824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8557A129477302000F1824 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C8557C5294779D9000F1824 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9C85578D29477233000F1824 /* AppDelegate.swift */,
-				9C85578F29477233000F1824 /* SceneDelegate.swift */,
-				9C85579129477233000F1824 /* ViewController.swift */,
+				9C85579129477233000F1824 /* TodoListViewController.swift */,
 				9C85579329477233000F1824 /* Main.storyboard */,
+				9C8557C5294779D9000F1824 /* SceneDelegate.swift */,
 				9C85579629477234000F1824 /* Assets.xcassets */,
 				9C85579829477234000F1824 /* LaunchScreen.storyboard */,
 				9C85579B29477234000F1824 /* Info.plist */,
+				9C8557A129477302000F1824 /* README.md */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				9C85579A29477234000F1824 /* LaunchScreen.storyboard in Resources */,
 				9C85579729477234000F1824 /* Assets.xcassets in Resources */,
+				9C8557A229477302000F1824 /* README.md in Resources */,
 				9C85579529477233000F1824 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C85579229477233000F1824 /* ViewController.swift in Sources */,
+				9C85579229477233000F1824 /* TodoListViewController.swift in Sources */,
 				9C85578E29477233000F1824 /* AppDelegate.swift in Sources */,
-				9C85579029477233000F1824 /* SceneDelegate.swift in Sources */,
+				9C8557C6294779D9000F1824 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
